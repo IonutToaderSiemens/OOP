@@ -9,5 +9,6 @@ namespace Acme.Common
     public interface ILoggable
     {
         string Log();
+        string Log(string message);
     }
 }
