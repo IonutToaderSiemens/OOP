@@ -12,7 +12,7 @@ namespace Acme.Common
         {
             foreach(var item in itemsToLog)
             {
-                Console.WriteLine(item.Log());
+                Console.WriteLine("modified");
             }
         }
     }
